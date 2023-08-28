@@ -26,7 +26,7 @@ a {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1600px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -180,6 +180,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 45px;
+    max-width: 1600px;
 }
 
 .footer_copyright_item:hover {
@@ -196,4 +197,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer_copyright {
+    text-align: -moz-center;
 }
