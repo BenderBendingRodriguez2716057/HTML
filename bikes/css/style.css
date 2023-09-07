@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}                  /*убирает крестик в форме в internet explorer*/
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    width: 1600px;
+    margin: 0 auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.3);
+}
+
+.container-header {
+    background: url(../img/header/main-fone.png)center;
+    height: 800px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.text {
+    color: #4d4959;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.6px;
+    padding: 0px 32px 0px;
+    opacity: 0.8;
+}
+
+.text:hover {
+    text-shadow: 0px 0px 35px rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+
+.header-menu__logo {
+    padding: 0px 32px 0px;
+}
+
+
+.aboutUs {
+    width: 100%;
+    height: 470px;
+    background-color: #f7f7f7;
+}
+
+.container-aboutUs__content__logo {
+    text-align: center;
+    padding-top: 117px;
+}
+.container-aboutUs__content__title {
+    text-align: center;
+    padding-top: 34px;
+    color: #353738;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;;
+    letter-spacing: 3.6px;
+}
+.container-aboutUs__content__text {
+    max-width: 1079px;
+    margin: 0 auto;
+    margin-top: 35px;
+    color: #848789;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.bike1 {
+    height: 600px;
+}
+.container-bike1 {
+    display: flex;
+}
+.container-bike1__img1 {
+    width: 1067px;
+    height: 600px;
+    background: url(../img/bike1/img1.png)center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-bike1__img2 {
+    width: 533px;
+    height: 600px;
+    background: url(../img/bike1/img2.png)bottom no-repeat;
+}
+.container-bike1__icon {
+    text-align: center;
+    padding-top: 50px;
+}
+.container-bike1__title {
+    text-align: center;
+    color: #353738;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    padding-top: 31px;
+}
+.container-bike1__text {
+    color: #848789;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 21px 67px 0;
+}
+
+.discover {
+    height: 200px;
+    margin: 0 auto;
+    background-color: #282f35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discover-container {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.discover-container__button a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+
+}
+
+.discover-container:hover {
+    transform: scale(1.1);       /*увеличение блока при наведении*/
+}
+
+.mailing {
+    height: 469px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.mailing-logo {
+    padding-top: 109px;
+}
+.mailing-text {
+    padding-top: 39px;
+    color: #848789;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 34px;
+}
+.mailing-form {
+    padding-top: 35px;
+}
+
+.email {
+    width: 400px;
+    height: 69px;
+    border: 1px solid #d3d7d9;
+    padding-left: 28px;
+    color: #929292;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.email:focus {
+    border: 5px solid #64c29e;
+}
+
+.button {
+    width: 126px;
+    height: 69px;
+    background-color: #64c29e;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: rgb(198, 126, 237);
+    
+}
