@@ -227,6 +227,50 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
 .button:hover {
-    background-color: rgb(198, 126, 237);
+    background-color: black;
     
+}
+
+.container-footer {
+    height: 250px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container__row {
+    width: 1101px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container__row__addres {
+    color: #848789;
+    font-style: italic;
+}
+
+.footer-container__row__addres__title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-container__row__addres__text {
+    font-size: 14px;
+}
+
+.footer-container__row__social__link {
+    margin: 0 7.5px;
+}
+
+.footer-container__row__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container__row__logo p {
+    color: #848789;
+    font-size: 14px;
+    font-style: italic;
+    margin-right: 9px;
 }
