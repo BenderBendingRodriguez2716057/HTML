@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}                  /*убирает крестик в форме в internet explorer*/
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    font-family: 'lato';
+}
+
+
+/* Header styles start*/
+
+.header {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.container-header {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+    padding-top: 62px;
+}
+
+.container-header__nav__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-header__nav__list li {
+    margin-right: 82px;
+}
+
+.container-header__nav__list li:last-child {
+    margin-right: 0;
+}
+
+.container-header__nav__list li:hover, .container-header__nav__list li:focus, .container-header__nav__list li:active {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+/* Header styles end */
+
+
+.intro {
+    height: 100vh;
+    background: url(../img/itro.png) no-repeat center;
+    background-size: cover;
+}
