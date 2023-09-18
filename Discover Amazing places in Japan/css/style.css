@@ -43,14 +43,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     font-family: 'lato';
 }
 
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
 
-/* Header styles start*/
+/* Header styles */
 
 .header {
     color: #FFF;
     font-size: 18px;
     line-height: 24px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -86,8 +90,166 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /* Header styles end */
 
 
+/* Intro styles  */
+
 .intro {
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/itro.png) no-repeat center;
     background-size: cover;
+    padding-bottom: 376px;
 }
+
+.intro-title {
+    max-width: 619px;
+    padding-top: 263px;
+    margin-bottom: 22px;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 500;
+}
+.intro-subtitle {
+    margin-bottom: 59px;
+    max-width: 546px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+.intro-form {
+    display: flex;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.intro-form__radio {
+    margin-right: 23px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    background-color: transparent;
+}
+
+.intro-form__left {
+    width: 297px;
+    display: flex;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 61px;
+    align-items: center;
+}
+
+.intro-form__right {
+    width: 297px;
+    display: flex;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 61px;
+    align-items: center;
+}
+
+.intro-button {
+    background-color: #1B7DFF;
+    padding: 15px 39px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+}
+
+.intro-button:hover {
+    background-color: #1760c0;
+}
+
+/* Intro styles end */
+
+
+/* Benefits styles */
+
+.Benefits-wrap {
+    max-width: 1262px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+    position: relative;
+}
+
+.Benefits-title {
+    color: #102746;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 93px 0px 93px 99px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: #fff;
+    width: 100%;
+    line-height: 42px;
+}
+
+.Benefits-wrap__cards {
+    display: flex;
+    padding: 32px 100px 112px 100px;
+}
+.Benefits-wrap__cards__card {
+    max-width: 317px;
+    margin-right: 55px;
+}
+
+.Benefits-wrap__cards__card:last-child {
+    margin-right: 0px;
+}
+
+.Benefits-wrap__cards__card__church {
+    margin-bottom: 38px;
+    max-width: 66px;
+    max-height: 66px;
+}
+
+.Benefits-wrap__cards__card__person {
+    margin-bottom: 38px;
+    max-width: 66px;
+    max-height: 66px;
+}
+
+.Benefits-wrap__cards__card__building {
+    margin-bottom: 38px;
+    max-width: 66px;
+    max-height: 66px;
+}
+
+.Benefits-wrap__cards__card__title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 27px;
+}
+
+.Benefits-wrap__cards__card__subtitle {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 39px;
+}
+
+.Benefits-wrap__cards__card__more {
+    max-width: 161px;
+    background: url(../img/Benefits/arrow.png) no-repeat 95%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    transition: 0.2s;
+}
+
+.Benefits-wrap__cards__card__more a {
+    color: #006DFE;
+}
+
+.Benefits-wrap__cards__card__more:hover {
+    background: url(../img/Benefits/arrow.png) no-repeat 100%;
+}
+
+/* Benefits styles end */
