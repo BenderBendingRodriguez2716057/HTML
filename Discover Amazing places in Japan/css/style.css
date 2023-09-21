@@ -172,6 +172,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin: 0 auto;
     box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
     position: relative;
+    margin-bottom: 131px;
 }
 
 .Benefits-title {
@@ -253,3 +254,183 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
 /* Benefits styles end */
+
+
+/* Places styles start */
+
+.places {
+    max-width: 1262px;
+    margin: 0 auto 131px;
+    min-height: 100%;
+}
+.places-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 46px;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.places-top__title {
+    color: #102746;
+    font-size: 35px;
+    font-weight: 500;
+}
+.line {
+    width: 253px;
+    height: 3px;
+    background-color: #006DFE;
+    margin-bottom: 36px;
+}
+.places-top__view {
+    color: #006DFE;
+    font-size: 16px;
+    background: url(../img/places/icons/arrow.png)no-repeat right;
+    padding-right: 59px;
+}
+.places-top__view:hover {
+    opacity: 
+    0.65;
+}
+
+.places-cards__top h2 {
+    padding-top: 267px;
+    padding-left: 29px;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+}
+.places-cards__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.places-cards__top__left {
+    width: 50%;
+    height: 354px;
+    background: url(../img/places/Imagetop-left.png) center no-repeat;
+    margin-right: 5px;
+}
+.places-cards__top__right {
+    width: 50%;
+    height: 354px;
+    background: url(../img/places/Imagetop-right.png) center no-repeat;
+    margin-left: 5px;
+}
+.places-cards__bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+.places-cards__bottom h2 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 27px;
+    padding-left: 31px;
+
+
+}
+.places-cards__bottom__left {
+    width: 33.33333%;
+    height: 243px;
+    background: url(../img/places/Objectbottom-left.png) center no-repeat;
+}
+.places-cards__bottom__center {
+    width: 33.33333%;
+    height: 243px;
+    background: url(../img/places/Objectbottom-center.png) center no-repeat;
+}
+.places-cards__bottom__right {
+    width: 33.33333%;
+    height: 243px;
+    background: url(../img/places/Objectbottom-right.png) center no-repeat;
+}
+.card {
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    margin: 3px;
+}
+.card-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* Places styles end */
+
+
+/* Prefecture in Focus styles start */
+
+.Prefecture {
+    width: 1262px;
+    margin: 0 auto;
+    height: 785px;
+}
+.Prefecture-top {
+    display: flex;
+    margin-bottom: 55px;
+}
+.Prefecture-top__image {
+    margin-right: 108px;
+}
+
+.Prefecture-top__text__title {
+    color: #102746;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 26px;
+    padding-bottom: 85px;
+}
+.Prefecture-top__text__text {
+    color: #102746;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 58px;
+}
+.Prefecture-top__text__link {
+    color: #006DFE;
+    font-size: 16px;
+    background: url(../img/prefecture/Shapearrow.png) right no-repeat;
+    padding-right: 59px;
+    transition: 0.2s;
+}
+.Prefecture-top__text__link:hover {
+    padding-right: 64px;
+}
+.Prefecture-bottom {
+    display: flex;
+}
+
+.Prefecture-bottom__text__title {
+    color: #102746;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 48px;
+    padding-bottom: 45px;
+}
+.Prefecture-bottom__text__text {
+    color: #102746;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 94px;
+}
+.Prefecture-bottom__text__link {
+    color: #006DFE;
+    font-size: 16px;
+    background: url(../img/prefecture/Shapearrow.png) right no-repeat;
+    padding-right: 59px;
+    transition: 0.2s;
+}
+.Prefecture-bottom__text__link:hover {
+    padding-right: 64px;
+}
+.Prefecture-bottom__image {
+    margin-left: 108px;
+}
+
+/* Prefecture in Focus styles end */
